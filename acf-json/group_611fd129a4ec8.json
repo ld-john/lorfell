@@ -1,0 +1,84 @@
+{
+    "key": "group_611fd129a4ec8",
+    "title": "Map",
+    "fields": [
+        {
+            "key": "field_611fd1317ac3d",
+            "label": "Embed Code",
+            "name": "embed_code",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2467.241482099751!2d-0.06914888406678665!3d51.80174809695931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487626922e8daa2b%3A0xfb6a2808f36a14cf!2sLink%20Digital!5e0!3m2!1sen!2suk!4v1629475499111!5m2!1sen!2suk",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_611fd1397ac3e",
+            "label": "Ratio",
+            "name": "ratio",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "is-square": "Square",
+                "is-5by4": "5x4",
+                "is-4by3": "4x3",
+                "is-3by2": "3x2",
+                "is-5by3": "5x3",
+                "is-16by9": "16x9",
+                "is-2by1": "2x1",
+                "is-3by1": "3x1",
+                "is-4by5": "4x5",
+                "is-3by4": "3x4",
+                "is-2by3": "2x3",
+                "is-3by5": "3x5",
+                "is-9by16": "9x16",
+                "is-1by2": "1x2",
+                "is-1by3": "1x3"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1708588059
+}

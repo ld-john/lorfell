@@ -1,0 +1,37 @@
+{
+  "name": "fbf/rpg-trailer",
+  "title": "Trailer",
+  "description": "A block to display the trailer for a campaign",
+  "category": "media",
+  "icon": "align-full-width",
+  "apiVersion": 2,
+  "keywords": [
+    "trailer"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./template-parts/block/content-campaign-trailer.php",
+    "postTypes": [
+      "campaigns"
+    ]
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "alignContent": false,
+    "alignText": true,
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true
+    }
+  },
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "full"
+    }
+  }
+}

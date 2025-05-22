@@ -1,0 +1,40 @@
+{
+  "name": "fbf/rpg-character-stories",
+  "title": "Character Stories",
+  "description": "A block to display stories about the character",
+  "category": "events",
+  "icon": "format-video",
+  "apiVersion": 2,
+  "keywords": [
+    "events",
+    "sub-events",
+    "meet-ups",
+    "panels"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./template-parts/block/content-character-playlists.php",
+    "postTypes": [
+      "character"
+    ]
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "alignContent": false,
+    "alignText": true,
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true
+    }
+  },
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "full"
+    }
+  }
+}

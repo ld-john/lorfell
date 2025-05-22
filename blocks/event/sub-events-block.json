@@ -1,0 +1,39 @@
+{
+  "name": "fbf/event-sub-events",
+  "title": "Event Sub-events",
+  "description": "A block to display FBF Events taking place at upcoming events",
+  "category": "events",
+  "icon": "align-full-width",
+  "apiVersion": 2,
+  "keywords": [
+    "events",
+    "sub-events",
+    "meet-ups",
+    "panels"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./template-parts/block/content-event-sub-events.php",
+    "postTypes": [ "events" ]
+  },
+
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "alignContent": false,
+    "alignText": true,
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true
+    }
+  },
+  "attributes" : {
+    "align" : {
+      "type": "string",
+      "default": "full"
+    }
+  }
+}

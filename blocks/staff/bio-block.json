@@ -1,0 +1,36 @@
+{
+  "name": "fbf/staff-bio",
+  "title": "Staff Bio",
+  "description": "A block to display the longer bio of staff members",
+  "category": "staff",
+  "icon": "align-full-width",
+  "apiVersion": 2,
+  "keywords": [
+    "profiles"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./template-parts/block/content-staff-bio.php",
+    "postTypes": [ "staff" ]
+  },
+
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "alignContent": false,
+    "alignText": true,
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true
+    }
+  },
+  "attributes" : {
+    "align" : {
+      "type": "string",
+      "default": "full"
+    }
+  }
+}

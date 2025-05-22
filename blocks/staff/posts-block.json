@@ -1,0 +1,38 @@
+{
+  "name": "fbf/staff-posts",
+  "title": "Staff Posts",
+  "description": "A block to display the posts and videos featuring a staff member",
+  "category": "staff",
+  "icon": "align-full-width",
+  "apiVersion": 2,
+  "keywords": [
+    "profiles",
+    "posts",
+    "videos"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./template-parts/block/content-staff-posts.php",
+    "postTypes": [ "staff" ]
+  },
+
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "alignContent": false,
+    "alignText": true,
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true
+    }
+  },
+  "attributes" : {
+    "align" : {
+      "type": "string",
+      "default": "full"
+    }
+  }
+}

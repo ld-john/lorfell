@@ -1,0 +1,36 @@
+{
+  "name": "fbf/rpg-character-gallery",
+  "title": "Character Gallery",
+  "description": "A block to display a gallery of a roleplaying character artwork",
+  "category": "events",
+  "icon": "align-full-width",
+  "apiVersion": 2,
+  "keywords": [
+    "gallery", "artwork"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./template-parts/block/content-character-gallery.php",
+    "postTypes": [ "character" ]
+  },
+
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "alignContent": false,
+    "alignText": true,
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true
+    }
+  },
+  "attributes" : {
+    "align" : {
+      "type": "string",
+      "default": "full"
+    }
+  }
+}

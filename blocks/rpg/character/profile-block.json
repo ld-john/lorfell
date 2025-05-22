@@ -1,0 +1,39 @@
+{
+  "name": "fbf/rpg-character-profile",
+  "title": "Character Profile",
+  "description": "A block to display the character profile of a roleplaying character",
+  "category": "events",
+  "icon": "align-full-width",
+  "apiVersion": 2,
+  "keywords": [
+    "events",
+    "sub-events",
+    "meet-ups",
+    "panels"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./template-parts/block/content-character-profile.php",
+    "postTypes": [ "character" ]
+  },
+
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "alignContent": false,
+    "alignText": true,
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true
+    }
+  },
+  "attributes" : {
+    "align" : {
+      "type": "string",
+      "default": "full"
+    }
+  }
+}

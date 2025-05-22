@@ -1,0 +1,71 @@
+{
+    "key": "group_5c01876e48344",
+    "title": "Video Information",
+    "fields": [
+        {
+            "key": "field_5c01878de194c",
+            "label": "Video",
+            "name": "video",
+            "aria-label": "",
+            "type": "oembed",
+            "instructions": "Enter a full embed URL",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "has-ratio",
+                "id": ""
+            },
+            "width": "",
+            "height": ""
+        },
+        {
+            "key": "field_5dc1e6f1d31ae",
+            "label": "YouTube Channel",
+            "name": "youtube_channel",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "UCX7vxdVapKMBodalw0HzLNw": "Final Boss Fight",
+                "UCQXFmCZZzoLvhQipw8ga07Q": "Geek Worlds",
+                "UCOR6Da3wd71bIAy5a1MTzrA": "It's Ben Again",
+                "UCJWCjGgox9zr7xn7rpGCJVA": "AirGuitarist",
+                "UCPOsNU9zi1jH9f0C9ftO1bA": "The Angel Games Player"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "videos"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1708588327
+}

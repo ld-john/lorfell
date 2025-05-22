@@ -1,0 +1,36 @@
+{
+  "name": "fbf/text-box",
+  "title": "Text Box",
+  "description": "A block to display a text box in the new style",
+  "category": "theme",
+  "icon": "align-full-width",
+  "apiVersion": 2,
+  "keywords": [
+    "text box"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./template-parts/block/content-text-box.php",
+    "postTypes": [ "post", "page"  ]
+  },
+
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "alignContent": false,
+    "alignText": true,
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true
+    }
+  },
+  "attributes" : {
+    "align" : {
+      "type": "string",
+      "default": "full"
+    }
+  }
+}

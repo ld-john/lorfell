@@ -1,0 +1,38 @@
+{
+  "name": "fbf/rpg-character-relationships",
+  "title": "Character Relationships",
+  "description": "A block to display the important relationships between characters",
+  "category": "widgets",
+  "icon": "groups",
+  "apiVersion": 2,
+  "keywords": [
+    "characters",
+    "relationships"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./template-parts/block/content-character-relationships.php",
+    "postTypes": [
+      "character"
+    ]
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "alignContent": false,
+    "alignText": true,
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true
+    }
+  },
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "full"
+    }
+  }
+}

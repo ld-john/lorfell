@@ -1,0 +1,36 @@
+{
+  "name": "fbf/podcasts",
+  "title": "Latest Podcasts",
+  "description": "A custom block to display the latest podcasts",
+  "category": "theme",
+  "icon": "align-full-width",
+  "apiVersion": 2,
+  "keywords": [
+    "archive"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./template-parts/block/content-podcasts.php",
+    "postTypes": [ "post", "page" ]
+  },
+
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "alignContent": false,
+    "alignText": true,
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true
+    }
+  },
+  "attributes" : {
+    "align" : {
+      "type": "string",
+      "default": "full"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "fbf/archive",
+  "title": "Archive",
+  "description": "A custom block to display an archive",
+  "category": "theme",
+  "icon": "align-full-width",
+  "apiVersion": 2,
+  "keywords": [
+    "archive"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./template-parts/block/content-archive.php",
+    "postTypes": [ "post", "page" ]
+  },
+
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "alignContent": false,
+    "alignText": true,
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true
+    }
+  },
+  "attributes" : {
+    "align" : {
+      "type": "string",
+      "default": "full"
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+    "key": "group_5c0194912efd9",
+    "title": "Playlist Info",
+    "fields": [
+        {
+            "key": "field_5c0194c7f4676",
+            "label": "Song",
+            "name": "song",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5c0194f3f4679",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add Song",
+            "sub_fields": [
+                {
+                    "key": "field_5c0194f3f4679",
+                    "label": "Song Title",
+                    "name": "song_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_5c0194c7f4676"
+                },
+                {
+                    "key": "field_5c0194e1f4678",
+                    "label": "Song Description",
+                    "name": "song_description",
+                    "aria-label": "",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1,
+                    "delay": 0,
+                    "parent_repeater": "field_5c0194c7f4676"
+                },
+                {
+                    "key": "field_5c0194cdf4677",
+                    "label": "Song embed",
+                    "name": "song_embed",
+                    "aria-label": "",
+                    "type": "oembed",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "width": "",
+                    "height": "",
+                    "parent_repeater": "field_5c0194c7f4676"
+                }
+            ],
+            "rows_per_page": 20
+        },
+        {
+            "key": "field_5c0195fdb0f04",
+            "label": "Playlists",
+            "name": "playlists",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add Playlist Option",
+            "sub_fields": [
+                {
+                    "key": "field_5c0194aaf4675",
+                    "label": "Playlist embed",
+                    "name": "playlist_embed",
+                    "aria-label": "",
+                    "type": "oembed",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "width": "",
+                    "height": "",
+                    "parent_repeater": "field_5c0195fdb0f04"
+                }
+            ],
+            "rows_per_page": 20
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_category",
+                "operator": "==",
+                "value": "category:dnd-character-playlists"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Playlists for DnD Character Playlists",
+    "show_in_rest": 0,
+    "modified": 1708588116
+}

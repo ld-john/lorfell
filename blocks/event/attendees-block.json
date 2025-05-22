@@ -1,0 +1,37 @@
+{
+  "name": "fbf/event-attendees",
+  "title": "Event Attendees",
+  "description": "A block to display the FBF attendees at conventions or other events",
+  "category": "events",
+  "icon": "align-full-width",
+  "apiVersion": 2,
+  "keywords": [
+    "events",
+    "attendees"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./template-parts/block/content-event-attendees.php",
+    "postTypes": [ "events" ]
+  },
+
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "alignContent": false,
+    "alignText": true,
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true
+    }
+  },
+  "attributes" : {
+    "align" : {
+      "type": "string",
+      "default": "full"
+    }
+  }
+}
